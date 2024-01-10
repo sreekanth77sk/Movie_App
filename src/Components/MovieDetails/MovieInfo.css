@@ -1,0 +1,31 @@
+
+.movie-info-bg{
+    background-color: lightsteelblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+
+}
+.movie-info-card{
+    height: 65vh;
+    padding: 30px;
+}
+.title{
+    margin-top: 0px;
+    color: rgb(63, 49, 14);
+}
+.movie-poster{
+    height: 35vh;
+    align-self: flex-start;
+    margin-top: 40px;
+    margin-left: 30px;
+    border: 2px solid gold;
+    box-shadow: 1px 1px 1px 1px goldenrod;
+    border-radius: 15px;
+}
+.back-button{
+    margin-left: 30px;
+}

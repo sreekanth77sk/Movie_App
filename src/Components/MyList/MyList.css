@@ -1,0 +1,47 @@
+.bg-container{
+    background-color:#141414;
+    height: auto;
+    width: 100vw;
+    margin: 0px;
+    color: aliceblue;
+    padding: 0px;
+ 
+}
+.my-list-nav{
+    display: flex;
+    justify-content: flex-start;
+}
+.heading{
+    margin: 0px;
+    background-color: rgb(32, 64, 0);
+    width: 100%;
+    padding: 16px;
+    color: azure;
+    font-size: larger;
+}
+.my-list{
+    width: 95vw;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    height: 40vh;
+    background-color: #141414;
+
+}
+.my-list::-webkit-scrollbar{
+    display: none;
+}
+.m-poster{
+    max-height: 35vh;
+    width: auto;
+    margin: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: 1s;
+    object-fit: contain;
+}
+.m-poster:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;
+}
