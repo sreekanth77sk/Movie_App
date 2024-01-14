@@ -13,7 +13,9 @@
    ## If the movie is already in My List, '- Remove from My List button will be displayed'.
       By clicking that button, we can delete that particular movie from My List.
 
-
+# TO RUN THIS APPLICATION RUN THE BELOW COMMANDS IN THE PROJECT FOLDER
+ $ npm i   (Installs Node Package Manager.)
+ $ npm start    (Runs the Application in the browser.)
 
 
 # Getting Started with Create React App
